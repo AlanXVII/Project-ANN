@@ -1,12 +1,14 @@
-﻿using System;
+﻿using ProjectANN.ActivationFunctions;
+using System;
 
-namespace ProjectANN
+namespace ProjectANN.Architecture
 {
-    class Node
+    public class Node
     {
         public double input { get; set; }
         public double output { get; set; }
-
+        public ActivationFunction actFunc { get; set; }
+        public double weight { get; set; }
 
         public Node()
         {
@@ -18,6 +20,11 @@ namespace ProjectANN
             var output = Math.Exp(input);
 
             return output;
+        }
+
+        private void GetWeights()
+        {
+
         }
     }
 }

@@ -21,8 +21,9 @@ namespace ProjectANN
 
             var y_train = new double[5] { 1, 2, 3, 4, 5 };
 
-            var ann = new NeuralNet();
+            var ann = new NeuralNet();    
             var relu = new Relu();
+
 
             ann.AddLayer(new Layer(5, relu));
             ann.AddLayer(new Layer(1, relu));

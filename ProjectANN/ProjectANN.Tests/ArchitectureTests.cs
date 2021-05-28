@@ -9,13 +9,16 @@ namespace ProjectANN.ArchitectureTests
     public class ArchitectureTests
     {
         [Test]
-        public void NeuralNetwork_CanCreate()
+        public void NeuralNetwork_InitiliaseNetwork_CreatedCorrectly()
         {
-            var n = new NeuralNet();
             var ann = new NeuralNet();
-            var relu = new Relu();
+            ann.AddLayer(new Layer(5, new Relu()));
+            ann.AddLayer(new Layer(10, new Tanh()));
 
-            var ans = relu.Apply(5);
+            Assert.That(ann.numLayers, Is.EqualTo(2));
+            Assert.That(ann.Layers.Count, Is.EqualTo(ann.numLayers));
+            Assert.That(ann.Layers[0].numNodes, Is.EqualTo(5));
+            Assert.That(ann.Layers[0].Nodes.Count, Is.EqualTo(ann.Layers[0].numNodes));
         }
     }
 }

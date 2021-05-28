@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\ProjectANN.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\ProjectANN.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\ProjectANN.Tests.csproj",
+        "projectName": "ProjectANN.Tests",
+        "projectPath": "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\ProjectANN.Tests.csproj",
+        "packagesPath": "C:\\Users\\alanw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alanw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj": {
+                "projectPath": "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[4.15.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj",
+        "projectName": "ProjectANN",
+        "projectPath": "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj",
+        "packagesPath": "C:\\Users\\alanw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alanw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[4.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+C:\Users\alanw\OneDrive\Machine Learning\ProjectANN\ProjectANN\bin\Debug\netstandard2.0\ProjectANN.deps.json
+C:\Users\alanw\OneDrive\Machine Learning\ProjectANN\ProjectANN\bin\Debug\netstandard2.0\ProjectANN.dll
+C:\Users\alanw\OneDrive\Machine Learning\ProjectANN\ProjectANN\bin\Debug\netstandard2.0\ProjectANN.pdb
+C:\Users\alanw\OneDrive\Machine Learning\ProjectANN\ProjectANN\obj\Debug\netstandard2.0\ProjectANN.AssemblyInfoInputs.cache
+C:\Users\alanw\OneDrive\Machine Learning\ProjectANN\ProjectANN\obj\Debug\netstandard2.0\ProjectANN.AssemblyInfo.cs
+C:\Users\alanw\OneDrive\Machine Learning\ProjectANN\ProjectANN\obj\Debug\netstandard2.0\ProjectANN.csproj.CoreCompileInputs.cache
+C:\Users\alanw\OneDrive\Machine Learning\ProjectANN\ProjectANN\obj\Debug\netstandard2.0\ProjectANN.dll
+C:\Users\alanw\OneDrive\Machine Learning\ProjectANN\ProjectANN\obj\Debug\netstandard2.0\ProjectANN.pdb

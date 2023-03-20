@@ -1,18 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using ProjectANN.Architecture;
-using ProjectANN.ActivationFunctions;
-using System.Numerics;
-using System.Windows;
-using MathNet;
-using MathNet.Numerics.LinearAlgebra.Double;
 
 namespace ProjectANN.Architecture
 {
     public class NeuralNet
     {
-        public string name { get; set; }
-        public int numLayers { get; private set; }
+        public string Name { get; set; }
+        public int NumLayers { get; private set; }
         public List<Layer> Layers { get; set; }        
 
 
@@ -24,7 +18,7 @@ namespace ProjectANN.Architecture
         public void AddLayer(Layer layer)
         { 
             Layers.Add(layer);
-            numLayers = Layers.Count;
+            NumLayers = Layers.Count;
         }
 
         public void Fit(double[][] X, double[] y, int epochs, int seed)

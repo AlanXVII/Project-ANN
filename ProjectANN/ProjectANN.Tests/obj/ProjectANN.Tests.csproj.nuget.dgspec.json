@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\ProjectANN.Tests.csproj": {}
+    "C:\\Users\\alanw\\OneDrive\\Programming\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\ProjectANN.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\ProjectANN.Tests.csproj": {
+    "C:\\Users\\alanw\\OneDrive\\Programming\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\ProjectANN.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\ProjectANN.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\alanw\\OneDrive\\Programming\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\ProjectANN.Tests.csproj",
         "projectName": "ProjectANN.Tests",
-        "projectPath": "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\ProjectANN.Tests.csproj",
+        "projectPath": "C:\\Users\\alanw\\OneDrive\\Programming\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\ProjectANN.Tests.csproj",
         "packagesPath": "C:\\Users\\alanw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\obj\\",
+        "outputPath": "C:\\Users\\alanw\\OneDrive\\Programming\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\alanw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj": {
-                "projectPath": "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj"
+              "C:\\Users\\alanw\\OneDrive\\Programming\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj": {
+                "projectPath": "C:\\Users\\alanw\\OneDrive\\Programming\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj"
               }
             }
           }
@@ -67,7 +71,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -76,21 +81,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj": {
+    "C:\\Users\\alanw\\OneDrive\\Programming\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj",
+        "projectUniqueName": "C:\\Users\\alanw\\OneDrive\\Programming\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj",
         "projectName": "ProjectANN",
-        "projectPath": "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj",
+        "projectPath": "C:\\Users\\alanw\\OneDrive\\Programming\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\ProjectANN.csproj",
         "packagesPath": "C:\\Users\\alanw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alanw\\OneDrive\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\obj\\",
+        "outputPath": "C:\\Users\\alanw\\OneDrive\\Programming\\Machine Learning\\ProjectANN\\ProjectANN\\ProjectANN\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\alanw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -127,7 +136,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -136,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
